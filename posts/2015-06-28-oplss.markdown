@@ -3,9 +3,10 @@ title: Attending Oregon Programming Languages Summer School (OPLSS 2015)
 postType: conference
 ---
 
+OPLSS has left me with a lot to think about. I have a new interest now in programming languages (vs programming *in* a language) as an approach to solving programming problems.
+
 I came across OPLSS via [purelytheoretical](http://purelytheoretical.com/sywtltt.html) after I decided
 to learn some type theory:
 
-I was talking to my dad about functional programming in Haskell, and I realized I wasn't sure what to do with something like a heterogeneous list. After I went home, I found this [wikibooks article about existential types](https://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types) and felt very confused.
-
-OPLSS has left me with a lot to think about. I have a new interest now in programming languages (vs programming *in* a language) as an approach to solving programming problems.
+I was talking to my dad about functional programming in Haskell, and I realized I wasn't sure what to do with something like a heterogeneous list.
+After I went home, I found this [wikibooks article about existential types](https://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types).

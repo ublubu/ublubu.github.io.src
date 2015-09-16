@@ -2,5 +2,4 @@
 title: Contact
 ---
 
-I live in a small hut in the mountains of Kumano Kodō on Kii Hantō and would not
-like to be contacted.
+Shoot me a message on [LinkedIn](https://www.linkedin.com/pub/kynan-rilee/69/8a6/833)!

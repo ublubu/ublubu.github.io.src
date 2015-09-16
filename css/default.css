@@ -1,48 +1,51 @@
 body {
+    height: 100%;
+    width: 100%;
     color: black;
-    font-size: 16px;
-    margin: 0px auto 0px auto;
-    width: 600px;
+    font: 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-div#header {
-    border-bottom: 2px solid black;
-    margin-bottom: 30px;
-    padding: 12px 0px 12px 0px;
+a {
+    color: #39c;
+    font-weight: 500;
+    text-decoration: none;
 }
 
-div#logo a {
-    color: black;
+#wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 180px;
     float: left;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
+    position: fixed;
+    text-align: left;
 }
 
-div#header #navigation {
-    text-align: right;
+#header a {
+    font-size: 16px;
+    display: block;
 }
 
-div#header #navigation a {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 12px;
-    text-decoration: none;
-    text-transform: uppercase;
+#content {
+    width: 500px;
+    float: right;
+    padding-bottom: 50px;
+    padding-top: 8px;
 }
 
-div#footer {
-    border-top: solid 2px black;
-    color: #555;
+#footer {
+    width: 180px;
+    float: left;
+    position: fixed;
+    bottom: 50px;
     font-size: 12px;
-    margin-top: 30px;
-    padding: 12px 0px 12px 0px;
-    text-align: right;
+    text-align: left;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 h2 {
