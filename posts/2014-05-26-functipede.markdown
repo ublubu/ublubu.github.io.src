@@ -3,7 +3,7 @@ title: functipede - Flow Graphs in JavaScript
 postType: project
 ---
 
-Functipede is a set of tools for composing flow graphs in JavaScript.
+[functipede](https://github.com/ublubu/functipede) is a set of tools for composing flow graphs in JavaScript.
 I model all flow graphs (even single nodes) each as a set of input callbacks and a set of output callbacks.
 This makes it simple to compose a flow graph from smaller pieces.
 In addition to graph composition, I've implemented tools for creating both stateful and stateless nodes/graphs from functions.

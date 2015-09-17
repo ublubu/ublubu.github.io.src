@@ -3,7 +3,7 @@ title: Tile Rider - A Puzzle Game in Haskell
 postType: project
 ---
 
-This is my first Haskell project. It's a barebones puzzle game implemented using SDL.
+[Tile Rider](https://github.com/ublubu/tile-rider) is my first Haskell project. It's a barebones puzzle game implemented using SDL.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/CEqgA0ZRA-o" frameborder="0" allowfullscreen></iframe>
 
