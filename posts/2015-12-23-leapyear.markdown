@@ -1,0 +1,8 @@
+---
+title: Haskell Project for LeapYear.io
+postType: project
+---
+
+I did a small Haskell project for LeapYear.io where I implemented a streaming database interface and blocked streaming joins and converted a differentially private machine learning algorithm from an in-memory implementation to a streaming version.
+
+I used pipes and pipes-group for streaming, HDBC for database access, and criterion and HUnit for benchmarking and testing.
