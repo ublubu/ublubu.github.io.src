@@ -6,8 +6,18 @@ postType: project
 [shapes](https://github.com/ublubu/shapes) is a constraint-based physics engine that currently features convex polygons, non-penetration with baumgarte stabilization, friction, solution caching, static and non-rotating objects, and AABB broadphase elimination.
 It's based on GDC slide decks I found online.
 
-I've always been curious about game development.
-I also wanted to write some Haskell to run in real-time.
+I've had great success optimizing the engine. The current demo can handle 15x more objects at 100fps than the original.
+I accomplished this primarily by:
+
+* optimizing special-case matrix multiplication
+* using Template Haskell to generate vector arithmetic code with unboxed numbers
+* changing my solver algorithm to allow caching in unboxed vectors
+* pervasive inlining
+* caching some shape queries for contact generation
+
+There are still more optimizations I can implement.
+For example, there are some ideas from [Bullet](http://bulletphysics.org) that I'd like to try.
+And I haven't even started parallelizing things yet.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/DYzf4zBK90o?list=PLmozfF6FosKjmPMnlPoVbWosiExbD0SUF" frameborder="0" allowfullscreen></iframe>
 
