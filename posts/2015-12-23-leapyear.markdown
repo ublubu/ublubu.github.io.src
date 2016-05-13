@@ -7,4 +7,4 @@ I worked a consulting job for LeapYear where I implemented streaming versions of
 Previously, these algorithms were limited to datasets that fit in memory.
 My implementations made it possible to process datasets of any size.
 
-I used pipes and pipes-group for streaming, HDBC for database access, and criterion and HUnit for benchmarking and testing.
+In addition to the streaming machine-learning algorithms, I also implemented streaming (and randomized) database interfaces and a streaming blocked join. I used pipes and pipes-group for streaming, HDBC for database access, and criterion and HUnit for benchmarking and testing.
