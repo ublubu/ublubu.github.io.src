@@ -6,7 +6,7 @@ postType: project
 [shapes](https://github.com/ublubu/shapes) is a constraint-based physics engine that currently features convex polygons, non-penetration with baumgarte stabilization, friction, solution caching, static and non-rotating objects, and AABB broadphase elimination.
 It's based on GDC slide decks I found online.
 
-I've had great success optimizing the engine. The current demo can handle 15x more objects at 100fps than the original.
+I've had great success optimizing the engine. The current demo comfortably handles 225 objects (1000-2000 constraints) at 100fps.
 I accomplished this primarily by:
 
 * optimizing special-case matrix multiplication

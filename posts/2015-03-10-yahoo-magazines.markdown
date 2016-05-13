@@ -12,8 +12,18 @@ I wrote JavaScript (with React) for the nodejs server and the web client.
 [Yahoo Beauty](http://www.yahoo.com/beauty),
 [etc](http://www.yahoo.com/movies)
 
-I focused on applying principles from functional programming to simplify complex code and create design patterns to encourage modularity and reduce avenues for bugs.
-For example, when we converted our app to React and then Flux, I developed a pattern for managing and using state - inspired by functional reactive programming like Elm and elerea and flow graphs like Intel TBB and React itself.
-I wrote [this tumblr blog post](http://ublubu.tumblr.com/post/109544244542/a-reactive-perspective-on-flux)^1^ about the Flux store aspect after using the pattern for a few months.
+In addition to my feature work, I applied principles from functional programming to create design patterns that eliminate avenues for complexity and bugs.
+I wrote 
+[this blog post](http://ublubu.tumblr.com/post/109544244542/a-reactive-perspective-on-flux)^1^
+explaining one important pattern after my team used it for a few months.
+
+The most important application of my design patterns was my integration of a particularly awkward ad service.
+The original implementation was fragile and made it difficult to add new ad configurations to our magazines.
+
+My encapsulation of the ad service made it possible to implement multiple new ad configurations without increasing code complexity.
+Furthermore, engineers on my team could now quickly add or modify ad configurations without deep knowledge of the underlying service.
+Ad integration issues also became much simpler to debug.
+
+Another team actually picked up my ad integration code and maintained it as a library for other Yahoo properties to use.
 
 ^1^My blog post: [A Reactive Perspective on Flux](http://ublubu.tumblr.com/post/109544244542/a-reactive-perspective-on-flux)
