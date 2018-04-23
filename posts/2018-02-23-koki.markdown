@@ -1,0 +1,24 @@
+---
+title: Koki Technology Co-founder (Oct 2017 - Feb 2018)
+postType: job
+---
+
+I built a CI system (inspired by Drone) that runs user-defined pipelines of containerized (Docker) tasks.
+It installs with a single `kubectl` command and integrates with both GitHub and Bitbucket repositories.
+I also developed an embedded DSL for defining more complex container pipelines in Haskell.
+
+I built the first automated installer for Hyperledger Fabric (blockchain platform) on Kubernetes.
+Pre-existing techniques required that users manually reconfigure each worker node in their Kubernetes cluster
+(a workaround for `kube-dns`), but I found that Docker-in-Docker obviates this need.
+
+We also created [koki/short](https://github.com/koki/short), a compact file format for Kubernetes manifests.
+One major feature is the [modules system](https://docs.koki.io/short/modules/) that I added.
+
+28 technical blog posts on [Medium](https://medium.com/@kynan.rilee). Some examples:
+
+* [What is "Proof of Elapsed Time" for blockchain?](https://medium.com/kokster/understanding-hyperledger-sawtooth-proof-of-elapsed-time-e0c303577ec1)
+* [Messing around with mount namespaces in Docker](https://medium.com/kokster/mount-volumes-into-a-running-container-65a967bee3b5)
+* [Messing around with reflection in Golang](https://medium.com/kokster/mutable-strings-in-golang-298d422d01bc)
+* [Small details can dramatically improve developer experience in Golang](https://medium.com/kokster/a-user-friendly-encoding-json-for-golang-d5ebb4ebbdf1)
+* [Architectural concerns for PostgreSQL on Kubernetes](https://medium.com/kokster/postgresql-on-kubernetes-the-right-way-part-one-d174ee8a56e3)
+* [Multi-stage Dockerfiles for private repos and leaner images](https://medium.com/kokster/fun-with-multi-stage-dockerfiles-7da7f11403d2)
